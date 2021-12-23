@@ -9,7 +9,7 @@ export const colors = {
 
 export const radius = {
   none: "0",
-  small: "0.8rem",
+  small: "1.25rem",
   big: "4rem",
 };
 

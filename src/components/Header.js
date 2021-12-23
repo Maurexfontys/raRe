@@ -16,7 +16,6 @@ const StyledHeader = styled.div`
 
   .logo {
     position: relative;
-
     max-height: 207, 85px;
     max-width: 207, 85px;
     background-color: ${colors.black};
