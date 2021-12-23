@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import Landing from "../components/raRe/pages/Landing";
+import { GlobalStyles } from "../components/GlobalStyles";
+import Landing from "../components/pages/Landing";
 
 class HomeScreen extends React.Component {
   render() {
     return (
       <BrowserRouter>
+        <GlobalStyles />
         <Landing />
       </BrowserRouter>
     );
