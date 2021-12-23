@@ -1,10 +1,13 @@
 import React from "react";
+import { Header } from "../Header";
+import { Container } from "../Container";
 
 class Landing extends React.Component {
   render() {
     return (
       <>
-        <h1>test</h1>
+        <Header />
+        <Container style={{ padding: "110px 0 0" }}></Container>
       </>
     );
   }
