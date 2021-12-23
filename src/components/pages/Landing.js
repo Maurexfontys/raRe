@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "../Header";
 import { Container } from "../Container";
 import { Row, TwoThirdWidth, OneThirdWidth } from "../Grid";
+import { PrimaryButton } from "../PrimaryButton";
 
 class Landing extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class Landing extends React.Component {
                 lekker genieten van heerlijke speciaalbieren of andere drankjes
                 in onze huiskamersfeer pub.
               </p>
+              <PrimaryButton>SEE ALL</PrimaryButton>
             </OneThirdWidth>
             <TwoThirdWidth style={{ backgroundColor: "#4C4C48" }}>
               <p>dddd</p>
