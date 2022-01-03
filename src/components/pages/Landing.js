@@ -3,6 +3,10 @@ import { Header } from "../Header";
 import { Container } from "../Container";
 import { Row, TwoThirdWidth, OneThirdWidth } from "../Grid";
 import { PrimaryButton } from "../PrimaryButton";
+import { colors } from ".././Tokens";
+
+import rarePub from "../../assets/rarePub.png";
+import img_2 from "../../assets/img_2.png";
 
 class Landing extends React.Component {
   render() {
@@ -14,19 +18,105 @@ class Landing extends React.Component {
             <OneThirdWidth
               style={{
                 height: "90vh",
-                backgroundColor: "#2A2A28",
+                backgroundColor: colors.darkGey,
               }}
             >
-              <p>
+              <img
+                alt="logo"
+                src={img_2}
+                className="img"
+                style={{
+                  position: "absolute ",
+                  width: "290px",
+                  height: "248px",
+                  left: "70px",
+                  top: "200px",
+                }}
+              />
+              <h1
+                style={{
+                  color: colors.sand,
+                  textAlign: "justify",
+                  letterSpacing: "0.1em",
+                }}
+              >
+                WELKOM BIJ WERTHA BREWPUB!
+              </h1>
+              <p
+                style={{
+                  color: colors.sand,
+                  textAlign: "justify",
+                  letterSpacing: "0.1em",
+                }}
+              >
                 Uit een grote passie voor bier en gezelligheid is Wertha Brewpub
                 ontstaan, de splinternieuwe en gezelligste pub van Weert! Kom
                 lekker genieten van heerlijke speciaalbieren of andere drankjes
                 in onze huiskamersfeer pub.
               </p>
+
               <PrimaryButton>SEE ALL</PrimaryButton>
             </OneThirdWidth>
-            <TwoThirdWidth style={{ backgroundColor: "#4C4C48" }}>
-              <p>dddd</p>
+            <TwoThirdWidth style={{ backgroundColor: colors.lightGrey }}>
+              <h1
+                style={{
+                  position: "absolute",
+                  width: "785.66px",
+                  height: "258px",
+                  left: "220px",
+                  top: "100px",
+                  fontFamily: "Roboto",
+                  fontWeight: "200",
+                  color: colors.sand,
+                  transform: "rotate(-90deg)",
+                  fontSize: "96px",
+                }}
+              >
+                WERTHA{" "}
+              </h1>
+              <h1
+                style={{
+                  position: "absolute",
+                  width: "785.66px",
+                  height: "258px",
+                  left: "312px",
+                  top: "120px",
+                  fontFamily: "Roboto",
+                  fontWeight: "700",
+                  color: colors.sand,
+                  transform: "rotate(-90deg)",
+                  fontSize: "96px",
+                }}
+              >
+                {" "}
+                BREWPUB
+              </h1>
+
+              <div
+                style={{
+                  position: "absolute",
+                  width: "492px",
+                  height: "609px",
+                  left: "752px",
+                  top: "180px",
+                  border: "4px solid #D0D0C7",
+                  boxSizing: "border-box",
+                }}
+              >
+                {" "}
+                <img
+                  alt="logo"
+                  src={rarePub}
+                  className="rarePub"
+                  style={{
+                    position: "absolute ",
+                    width: "475px",
+                    height: "594px",
+                    left: "-20px",
+                    top: "-20px",
+                  }}
+                />
+              </div>
             </TwoThirdWidth>
           </Row>
         </Container>

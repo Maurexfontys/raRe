@@ -4,7 +4,9 @@ export const colors = {
   pink: "#AA0054",
   white: "#FFF",
   grey: "#B6B6B6",
-  "grey-light": "#EEE",
+  lightGrey: "#4C4C48",
+  darkGey: "#2A2A28",
+  sand: "#D0D0C7",
 };
 
 export const radius = {

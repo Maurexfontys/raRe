@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { colors, fontSizes } from "./Tokens";
+import "typeface-roboto";
 
 import { Container } from "./Container";
 
@@ -58,8 +59,8 @@ const StyledHeader = styled.div`
       display: flex;
       padding: 80px;
       font-size: 1rem;
-      font-weight: bold;
-      font-family: Montserrat;
+      font-weight: normal;
+      font-family: Roboto;
     }
   }
 `;
